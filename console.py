@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-""" Console Module """
+
+"""
+HBNB Console Module
+
+This module provides a command-line interface (CLI) for managing objects
+in the HBNB project.
+"""
 import cmd
 import sys
 from models.base_model import BaseModel
@@ -10,7 +16,6 @@ from models.state import State
 from models.city import City
 from models.amenity import Amenity
 from models.review import Review
-
 
 class HBNBCommand(cmd.Cmd):
     """ Contains the functionality for the HBNB console"""
